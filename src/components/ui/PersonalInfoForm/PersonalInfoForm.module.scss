@@ -1,0 +1,46 @@
+.content {
+	display: flex;
+	flex-direction: column;
+	gap: 16px 0;
+	.name__row,
+	.email__row,
+	.adress__row,
+	.password__row {
+		display: grid;
+		gap: 0 16px;
+		grid-template-columns: repeat(2, 1fr);
+		input {
+			border: 1px solid rgb(149, 152, 149);
+			border-radius: 12px;
+			background: rgb(255, 255, 255);
+			padding: 24px;
+			color: rgb(85, 87, 85);
+			font-size: 16px;
+			font-weight: 300;
+			letter-spacing: 0px;
+			font-family: Montserrat;
+		}
+	}
+	.adress__row {
+		grid-template-columns: 478px 1fr;
+	}
+	.editButton {
+		background-color: transparent;
+		box-sizing: border-box;
+		border: 1px solid rgb(40, 40, 40);
+		border-radius: 60px;
+		background: rgb(255, 255, 255);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 0 8px;
+		.editButton__text {
+			color: rgb(40, 40, 40);
+			font-family: Poppins;
+			font-size: 18px;
+			font-weight: 600;
+			padding-top: 20px;
+			
+		}
+	}
+}

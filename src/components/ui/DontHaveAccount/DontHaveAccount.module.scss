@@ -1,0 +1,34 @@
+.dontHaveAccount {
+	color: rgb(40, 40, 40);
+	font-family: Poppins;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 135.01%;
+	letter-spacing: 2%;
+	text-align: center;
+	margin-top: 24px;
+	width: 100%;
+	border-top: 1px solid rgb(196, 198, 196);
+	padding-top: 24px;
+	.signUpButton {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+		gap: 0 8px;
+		border: 1px solid rgb(40, 40, 40);
+		border-radius: 60px;
+		background: rgb(255, 255, 255);
+		margin-top: 24px;
+
+		p {
+			color: rgb(40, 40, 40);
+			font-family: Poppins;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 24px;
+			letter-spacing: 0%;
+			padding: 18px 0;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+.content {
+	.greeting {
+		color: rgb(40, 40, 40);
+		font-family: Poppins;
+		font-size: 60px;
+		font-weight: 300;
+		line-height: 90px;
+		margin-bottom: 24px;
+	}
+	.balance__wrapper {
+		border-radius: 16px;
+		box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.04);
+		background: rgb(255, 255, 255);
+		display: flex;
+		justify-content: space-between;
+		padding: 32px;
+		.balance {
+			p {
+				color: rgb(40, 40, 40);
+				font-family: Poppins;
+				font-size: 24px;
+				font-weight: 300;
+				margin-bottom: 16px;
+			}
+			span {
+				color: rgb(40, 40, 40);
+				font-family: Poppins;
+				font-size: 48px;
+				font-weight: 700;
+			}
+		}
+	}
+}
